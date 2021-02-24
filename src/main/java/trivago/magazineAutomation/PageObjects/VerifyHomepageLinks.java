@@ -13,8 +13,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import trivago.magazineAutomation.stepdefination.VerifyHomePageLinksSteps;
+import trivago.magazineAutomation.stepdefinition.VerifyHomePageLinksSteps;
 
+/**
+ * The VerifyHomepageLinks program verifies all the links present in homepage.
+ *
+ * @author Nayan Agawal
+ * @version 1.0
+ * @since 20121-02-21
+ */
 public class VerifyHomepageLinks extends VerifyHomePageLinksSteps {
 	WebDriver driver;
 
@@ -30,11 +37,15 @@ public class VerifyHomepageLinks extends VerifyHomePageLinksSteps {
 
 	/**
 	 * Verifies all the links present in homepage
+	 * 
+	 * @throws IOException
 	 *
 	 */
-	public void HomePageLinkTab() {
+	public void HomePageLinkTab() throws IOException {
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+		getScreenshot(driver, "verifyHomepageLinks");
 
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 

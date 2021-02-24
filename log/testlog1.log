@@ -173,3 +173,146 @@
 2021-02-22 23:38:16,968 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Location which is getting searched is  - Germany
 2021-02-22 23:38:19,515 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - 3 Search Results found
 2021-02-22 23:38:19,564 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - 3 Search Results
+2021-02-24 09:09:02,693 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Click on contacat button to fill form
+2021-02-24 09:09:06,934 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Submitting contact form
+2021-02-24 09:09:08,456 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Form filled successfully and message Sent 
+2021-02-24 09:09:11,106 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Navigating to : https://room5.trivago.com/
+2021-02-24 09:09:17,655 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/
+2021-02-24 09:09:18,780 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/ is a valid link
+2021-02-24 09:09:18,818 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/hotels-with-kitchens-usa/
+2021-02-24 09:09:19,062 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/hotels-with-kitchens-usa/ is a valid link
+2021-02-24 09:09:19,091 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/travel-from-home/
+2021-02-24 09:09:19,326 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/travel-from-home/ is a valid link
+2021-02-24 09:09:19,362 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/best-weekend-getaways/
+2021-02-24 09:09:19,900 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/best-weekend-getaways/ is a valid link
+2021-02-24 09:09:19,923 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/best-nature-vacations/
+2021-02-24 09:09:20,502 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/best-nature-vacations/ is a valid link
+2021-02-24 09:09:20,533 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/romantic-getaways/
+2021-02-24 09:09:20,766 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/romantic-getaways/ is a valid link
+2021-02-24 09:09:20,798 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/beachfront-hotels/
+2021-02-24 09:09:21,348 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/beachfront-hotels/ is a valid link
+2021-02-24 09:09:21,365 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/family-vacations/
+2021-02-24 09:09:21,602 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/family-vacations/ is a valid link
+2021-02-24 09:09:21,632 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/winter-vacation-ideas/
+2021-02-24 09:09:22,180 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/theme/winter-vacation-ideas/ is a valid link
+2021-02-24 09:09:22,197 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#mind-traveling
+2021-02-24 09:09:22,432 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#mind-traveling is a valid link
+2021-02-24 09:09:22,498 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#future-local-trips
+2021-02-24 09:09:22,720 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#future-local-trips is a valid link
+2021-02-24 09:09:22,749 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/romantic-getaways-in-new-york-state/
+2021-02-24 09:09:22,993 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/romantic-getaways-in-new-york-state/ is a valid link
+2021-02-24 09:09:23,018 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/staycation-in-dallas/
+2021-02-24 09:09:23,252 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/staycation-in-dallas/ is a valid link
+2021-02-24 09:09:23,291 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/hotels-with-kitchens-usa/
+2021-02-24 09:09:23,516 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/hotels-with-kitchens-usa/ is a valid link
+2021-02-24 09:09:23,609 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/nevada-road-trip/
+2021-02-24 09:09:23,855 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/nevada-road-trip/ is a valid link
+2021-02-24 09:09:23,890 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/new-businesses-2020-sustainability-ecopreneur-evolution/
+2021-02-24 09:09:24,126 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/new-businesses-2020-sustainability-ecopreneur-evolution/ is a valid link
+2021-02-24 09:09:24,170 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/glamping-texas/
+2021-02-24 09:09:24,403 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/glamping-texas/ is a valid link
+2021-02-24 09:09:24,417 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - null
+2021-02-24 09:09:24,418 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL is either not configured for anchor tag or it is empty
+2021-02-24 09:09:24,448 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/hotels-with-private-pools/
+2021-02-24 09:09:24,682 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/hotels-with-private-pools/ is a valid link
+2021-02-24 09:09:24,699 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-texas/
+2021-02-24 09:09:24,935 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-texas/ is a valid link
+2021-02-24 09:09:24,965 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-arizona/
+2021-02-24 09:09:25,199 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-arizona/ is a valid link
+2021-02-24 09:09:25,224 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-tn/
+2021-02-24 09:09:25,459 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-tn/ is a valid link
+2021-02-24 09:09:25,485 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-southern-california/
+2021-02-24 09:09:25,719 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-southern-california/ is a valid link
+2021-02-24 09:09:25,756 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/romantic-getaways-in-florida/
+2021-02-24 09:09:25,989 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/romantic-getaways-in-florida/ is a valid link
+2021-02-24 09:09:26,028 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-georgia/
+2021-02-24 09:09:26,265 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-georgia/ is a valid link
+2021-02-24 09:09:26,310 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-new-york/
+2021-02-24 09:09:26,576 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-new-york/ is a valid link
+2021-02-24 09:09:26,601 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-ohio/
+2021-02-24 09:09:26,841 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/weekend-getaways-in-ohio/ is a valid link
+2021-02-24 09:09:26,876 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#plan-your-future-trip
+2021-02-24 09:09:27,098 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#plan-your-future-trip is a valid link
+2021-02-24 09:09:27,141 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#popular-cities
+2021-02-24 09:09:27,365 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#popular-cities is a valid link
+2021-02-24 09:09:27,402 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/international/
+2021-02-24 09:09:27,635 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/international/ is a valid link
+2021-02-24 09:09:27,662 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/midwest/
+2021-02-24 09:09:27,897 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/midwest/ is a valid link
+2021-02-24 09:09:27,933 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/northeast/
+2021-02-24 09:09:28,200 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/northeast/ is a valid link
+2021-02-24 09:09:28,228 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/northwest/
+2021-02-24 09:09:28,463 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/northwest/ is a valid link
+2021-02-24 09:09:28,504 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/southeast-us/
+2021-02-24 09:09:28,737 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/southeast-us/ is a valid link
+2021-02-24 09:09:28,764 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/southwest/
+2021-02-24 09:09:29,006 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/southwest/ is a valid link
+2021-02-24 09:09:29,047 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/chicago/
+2021-02-24 09:09:29,283 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/chicago/ is a valid link
+2021-02-24 09:09:29,395 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/new-york-city/
+2021-02-24 09:09:29,635 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/new-york-city/ is a valid link
+2021-02-24 09:09:29,720 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/new-orleans/
+2021-02-24 09:09:29,955 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/new-orleans/ is a valid link
+2021-02-24 09:09:30,030 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/las-vegas/
+2021-02-24 09:09:30,270 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/las-vegas/ is a valid link
+2021-02-24 09:09:30,344 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/los-angeles/
+2021-02-24 09:09:30,584 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/destination/los-angeles/ is a valid link
+2021-02-24 09:09:30,666 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/?cip=1110000000003
+2021-02-24 09:09:30,667 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:30,808 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.facebook.com/trivagoUS/
+2021-02-24 09:09:30,808 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:30,911 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://twitter.com/trivago
+2021-02-24 09:09:30,912 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:30,986 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.instagram.com/trivago/
+2021-02-24 09:09:30,987 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:31,028 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.pinterest.com/trivago/
+2021-02-24 09:09:31,029 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:31,075 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.linkedin.com/company/trivagonv/
+2021-02-24 09:09:31,076 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:31,109 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/about/
+2021-02-24 09:09:31,705 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/about/ is a valid link
+2021-02-24 09:09:31,720 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/contact/
+2021-02-24 09:09:32,273 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/contact/ is a valid link
+2021-02-24 09:09:32,325 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://company.trivago.com/open-positions
+2021-02-24 09:09:32,326 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,343 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://company.trivago.com/press/
+2021-02-24 09:09:32,343 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,364 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/?cip=1110000000003
+2021-02-24 09:09:32,364 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,390 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/app?cip=1110000000003
+2021-02-24 09:09:32,391 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,402 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://studio.trivago.com/
+2021-02-24 09:09:32,403 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,426 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/legal-information?cip=1110000000003
+2021-02-24 09:09:32,426 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,450 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/privacy-policy?cip=1110000000003
+2021-02-24 09:09:32,450 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,467 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/privacy-policy?cip=1110000000003
+2021-02-24 09:09:32,467 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,481 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://onetrust.com/poweredbyonetrust
+2021-02-24 09:09:32,482 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,500 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - javascript:void(0)
+2021-02-24 09:09:32,500 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,520 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - javascript:void(0)
+2021-02-24 09:09:32,521 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,546 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - javascript:void(0)
+2021-02-24 09:09:32,546 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:32,568 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#
+2021-02-24 09:09:32,799 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/# is a valid link
+2021-02-24 09:09:32,837 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/#
+2021-02-24 09:09:33,059 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://magazine.trivago.com/# is a valid link
+2021-02-24 09:09:33,077 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://onetrust.com/poweredbyonetrust
+2021-02-24 09:09:33,078 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:33,104 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - https://www.trivago.com/privacy-policy?cip=1110000000003
+2021-02-24 09:09:33,104 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - URL belongs to another domain, skipping it.
+2021-02-24 09:09:35,396 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Navigating to : https://room5.trivago.com/
+2021-02-24 09:09:43,101 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Clicked in destination search + button
+2021-02-24 09:09:43,105 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Destination selected is NorthEast which is invalid!!
+2021-02-24 09:09:46,746 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Navigating to : https://room5.trivago.com/
+2021-02-24 09:09:50,856 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Entered email ID is - 24090950qwpp@tsd.ddfb
+2021-02-24 09:09:51,370 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Clicked on submit button
+2021-02-24 09:09:54,153 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - User successfully subscribed to newsletter
+2021-02-24 09:09:57,145 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Navigating to : https://room5.trivago.com/
+2021-02-24 09:10:01,805 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - Location which is getting searched is  - Germany
+2021-02-24 09:10:05,532 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - 3 Search Results found
+2021-02-24 09:10:05,626 [main] INFO trivago.magazineAutomation.commonUtil.TestBase - 3 Search Results

@@ -5,6 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+* The ReadPropertiesFile program reads values from constant.properites
+*
+* @author  Nayan Agawal
+* @version 1.0
+* @since   20121-02-19
+*/
 public class ReadPropertiesFile {
 
 	private static File file = new File("constant.properties");

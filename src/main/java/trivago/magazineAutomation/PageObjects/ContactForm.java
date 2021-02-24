@@ -1,5 +1,6 @@
 package trivago.magazineAutomation.PageObjects;
 
+import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -11,8 +12,16 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import trivago.magazineAutomation.stepdefination.ContactFormSteps;
+import trivago.magazineAutomation.stepdefinition.ContactFormSteps;
 
+/**
+* The ContactForm program implements filling of user contact form
+* and verifies form submitted successfully or not.
+*
+* @author  Nayan Agawal
+* @version 1.0
+* @since   20121-02-20
+*/
 public class ContactForm extends ContactFormSteps {
 	WebDriver driver;
 
@@ -53,8 +62,9 @@ public class ContactForm extends ContactFormSteps {
 	 *
 	 * @param message, fullname, email
 	 * @throws InterruptedException
+	 * @throws IOException
 	 */
-	public void fillContactFormPage(String message, String fullName, String email) throws InterruptedException {
+	public void fillContactFormPage(String message, String fullName, String email) throws InterruptedException, IOException {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		log.info("Click on contacat button to fill form");
@@ -74,13 +84,11 @@ public class ContactForm extends ContactFormSteps {
 
 		confirmCheckBox.click();
 
+		getScreenshot(driver, "contactFormDetailsBeforeSubmit");
+		
 		submitButton.click();
 
 		log.info("Submitting contact form");
-
-		explicatWait(driver, verifyMessageSent);
-
-		Assert.assertEquals("Message Sent Successfully!", verifyMessageSent.getText());
 
 	}
 
@@ -95,6 +103,8 @@ public class ContactForm extends ContactFormSteps {
 
 		Assert.assertEquals("Message Sent Successfully!", verifyMessageSent.getText());
 		log.info("Form filled successfully and message Sent ");
+		
+		getScreenshot(driver, "contactFormMessage");
 
 	}
 

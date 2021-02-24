@@ -1,5 +1,6 @@
 package trivago.magazineAutomation.PageObjects;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -11,8 +12,16 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import trivago.magazineAutomation.stepdefination.SearchLocationSteps;
+import trivago.magazineAutomation.stepdefinition.SearchLocationSteps;
 
+/**
+* The SearchLocation program implements any search location
+* and verifies location is searched successfully or not.
+*
+* @author  Nayan Agawal
+* @version 1.0
+* @since   20121-02-20
+*/
 public class SearchLocation extends SearchLocationSteps {
 	WebDriver driver;
 
@@ -34,8 +43,9 @@ public class SearchLocation extends SearchLocationSteps {
 	 * Open particular location.
 	 *
 	 * @param location
+	 * @throws IOException 
 	 */
-	public String searchLocationPage(String location) {
+	public String searchLocationPage(String location) throws IOException {
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
@@ -43,6 +53,7 @@ public class SearchLocation extends SearchLocationSteps {
 
 		SearchIcon.click();
 		inputSearch.sendKeys(location);
+		getScreenshot(driver, location+"Entered");
 		inputSearch.sendKeys(Keys.RETURN);
 
 		explicatWait(driver, SearchResultTitle);
@@ -55,9 +66,10 @@ public class SearchLocation extends SearchLocationSteps {
 
 	/**
 	 * Verifies searched location
+	 * @throws IOException 
 	 *
 	 */
-	public void verifysearchLocation() {
+	public void verifysearchLocation() throws IOException {
 
 		List<WebElement> count = driver
 				.findElements(By.xpath("//div[@class='article-card col col-xs-12 col-sm-6 col-md-6']"));
@@ -69,6 +81,8 @@ public class SearchLocation extends SearchLocationSteps {
 
 		Assert.assertEquals(actualSearchResult, SearchResultTitle.getText());
 
+		getScreenshot(driver, "verifySearchLocationResut");
+		
 	}
 
 }

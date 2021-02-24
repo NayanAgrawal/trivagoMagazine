@@ -16,7 +16,7 @@
 	</properties>
 
 	<dependencies>
-	<dependency>
+		<dependency>
 			<groupId>com.vimalselvam</groupId>
 			<artifactId>cucumber-extentsreport</artifactId>
 			<version>3.0.2</version>
@@ -65,9 +65,6 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-		<!-- <dependency> <groupId>io.cucumber</groupId> <artifactId>cucumber-testng</artifactId> 
-			<version>4.7.2</version> </dependency> -->
 	</dependencies>
 	<build>
 		<plugins>
@@ -86,9 +83,6 @@
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
 					<forkMode>never</forkMode>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>

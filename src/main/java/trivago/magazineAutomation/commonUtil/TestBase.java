@@ -25,6 +25,14 @@ import org.testng.Reporter;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 
+/**
+ * The TestBase program defines base code of browser selection, loading of URL,
+ * screenshot capture different waits for locators.
+ *
+ * @author Nayan Agawal
+ * @version 1.0
+ * @since 20121-02-19
+ */
 public class TestBase {
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
@@ -54,8 +62,6 @@ public class TestBase {
 	 */
 	public void selectBrowser(String browser) throws MalformedURLException {
 		if (browser.equalsIgnoreCase("chrome")) {
-			// System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-			// + "/Drivers/chromedriver.exe");
 
 			System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 			log.info("Creating object of " + browser);
@@ -64,8 +70,6 @@ public class TestBase {
 			driver = new ChromeDriver();
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			// System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") +
-			// "/Drivers/geckodriver.exe");
 			FirefoxDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("headless")) {
@@ -132,14 +136,9 @@ public class TestBase {
 		File image = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 		String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()
-				+ "/src/main/java/com/test/tech9/Stampinup/screenshot/";
+				+ "/src/main/java/trivago/magazineAutomation/screenshot/";
 
-		/*
-		 * File destFile = new File( (String) reportDirectory + name + "_" +
-		 * format.format(calander.getTime()) + ".png");
-		 */
 		String actualImageName = reportDirectory + imageName + "_" + format.format(calander.getTime()) + ".png";
-		// FileUtils.copyFile(scrFile, destFile);
 		File destFile = new File(actualImageName);
 		FileUtils.copyFile(image, destFile);
 

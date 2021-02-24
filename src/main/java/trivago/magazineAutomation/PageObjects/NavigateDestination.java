@@ -9,8 +9,15 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import trivago.magazineAutomation.stepdefination.NavigateDestinationSteps;
+import trivago.magazineAutomation.stepdefinition.NavigateDestinationSteps;
 
+/**
+* The NavigateDestination program selects destination and verifies selected destination.
+*
+* @author  Nayan Agawal
+* @version 1.0
+* @since   20121-02-22
+*/
 public class NavigateDestination extends NavigateDestinationSteps {
 	WebDriver driver;
 
@@ -64,6 +71,7 @@ public class NavigateDestination extends NavigateDestinationSteps {
 			driver.findElement(By.xpath(selectDestination)).click();
 			explicatWait(driver, verifyDestinationResult);
 			Assert.assertEquals(destination, verifyDestinationResult.getText());
+			getScreenshot(driver, "southeastDestinationPage");
 
 		} else if (destination.equals("Midwest") || destination.equals("Northeast") || destination.equals("Northwest")
 				|| destination.equals("Southwest")) {
@@ -71,11 +79,14 @@ public class NavigateDestination extends NavigateDestinationSteps {
 			driver.findElement(By.xpath(selectDestination)).click();
 			explicatWait(driver, verifyDestinationResult);
 			Assert.assertEquals(destination, verifyDestinationResult.getText());
+			getScreenshot(driver, destination+"DestinationPage");
 
 		}
 
 		else {
 			log.info("Destination selected is " + destination + " which is invalid!!");
+			getScreenshot(driver, "invalidSearch");
+
 		}
 
 	}

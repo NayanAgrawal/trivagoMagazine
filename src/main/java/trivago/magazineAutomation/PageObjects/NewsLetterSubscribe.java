@@ -11,8 +11,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import trivago.magazineAutomation.stepdefination.NewsletterSteps;
+import trivago.magazineAutomation.stepdefinition.NewsletterSteps;
 
+/**
+ * The NewsLetterSubscribe program implements subscription of newsletter and
+ * verifies successful subscription.
+ *
+ * @author Nayan Agawal
+ * @version 1.0
+ * @since 20121-02-20
+ */
 public class NewsLetterSubscribe extends NewsletterSteps {
 	WebDriver driver;
 
@@ -53,6 +61,8 @@ public class NewsLetterSubscribe extends NewsletterSteps {
 		emailTextBox.sendKeys(newsletterEmail);
 		log.info("Entered email ID is - " + newsletterEmail);
 
+		getScreenshot(driver, "enteredEmailIDNewsletter");
+
 		submitButton.click();
 
 		log.info("Clicked on submit button");
@@ -72,6 +82,7 @@ public class NewsLetterSubscribe extends NewsletterSteps {
 
 		assertEquals("You are now checked-in!", verifySubmittedMessage.getText());
 		log.info("User successfully subscribed to newsletter");
+		getScreenshot(driver, "verifyNewsletterSubscription");
 
 	}
 
